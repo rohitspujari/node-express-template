@@ -1,0 +1,19 @@
+{
+  "name": "feedback-app",
+  "version": "1.0.0",
+  "description": "This is app is to solicit feedback from the users",
+  "main": "index.js",
+  "engines": {
+    "node": "8.2.1",
+    "npm": "5.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Rohit Pujari",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
