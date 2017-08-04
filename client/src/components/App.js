@@ -3,7 +3,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import { connect } from 'react-redux';
 import Header from './Header';
 import Landing from './Landing';
-import Modal from './Modal';
+import Modal from './sandbox/Modal';
 import * as actions from '../actions';
 
 const Dashboard = () => <h2>Dashboard</h2>;

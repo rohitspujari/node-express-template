@@ -9,7 +9,6 @@ import App from './components/App';
 import reducers from './reducers';
 
 //Source: https://github.com/Dogfalo/materialize/issues/4521
-
 import $ from 'jquery';
 window.$ = $;
 window.jQuery = $;
@@ -24,4 +23,5 @@ ReactDOM.render(
   </Provider>,
   document.getElementById('root')
 );
+
 //registerServiceWorker();
