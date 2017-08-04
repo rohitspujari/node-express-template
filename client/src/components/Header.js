@@ -26,7 +26,7 @@ class Header extends Component {
             <a href="/api/logout">Logout</a>
           </li>,
           <li key={2} style={{ margin: '0 35px' }}>
-            {`Credits:${this.props.auth.credits}`}
+            {`Credits: ${this.props.auth.credits}`}
           </li>,
           <li key={1} style={{ marginRight: 10 }}>
             <StripeWrapper />
