@@ -1,4 +1,5 @@
 import 'materialize-css/dist/css/materialize.min.css';
+// temporary testing from browser
 
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -10,8 +11,11 @@ import reducers from './reducers';
 
 //Source: https://github.com/Dogfalo/materialize/issues/4521
 import $ from 'jquery';
+import axios from 'axios';
+window.axios = axios;
 window.$ = $;
 window.jQuery = $;
+
 require('materialize-css');
 //import registerServiceWorker from './registerServiceWorker';
 
